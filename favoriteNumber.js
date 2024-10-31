@@ -1,0 +1,1 @@
+let favNumber = 01;let guess = prompt("Guess my favorite number:");while (guess != favNumber) {  if (guess > favNumber) {    console.log("Too high!");  } else {    console.log("Too low!");  }  guess = prompt("Guess again:");}console.log("You got it!");
